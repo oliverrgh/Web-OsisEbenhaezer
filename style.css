@@ -50,6 +50,7 @@
     margin-right: 2rem;
     display: inline-block;
     transition: linear 0.2s;
+    padding-top: 10px;
   }
 
   
@@ -62,7 +63,7 @@
   nav .navigation-menu li a::after {
     content: "";
     display: block;
-    padding-bottom: 0.5rem;
+    padding-bottom: 10px;
     border-bottom: solid rgb(142, 17, 17) 2px;
     transform: scaleX(0);
   }
