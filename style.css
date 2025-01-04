@@ -32,7 +32,7 @@
     width: 100%;
     height: 5rem;
     background-color: whitesmoke;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     /* position: -ms-page;
     top: 0px; */
   }
@@ -50,6 +50,7 @@
     margin-right: 2rem;
     display: inline-block;
     transition: linear 0.2s;
+    padding-top: 10px;
   }
 
   
@@ -62,7 +63,7 @@
   nav .navigation-menu li a::after {
     content: "";
     display: block;
-    padding-bottom: 0.5rem;
+    padding-bottom: 10px;
     border-bottom: solid rgb(142, 17, 17) 2px;
     transform: scaleX(0);
   }
@@ -115,12 +116,13 @@
   /* footer section */
   footer {
     background-color: rgb(142, 17, 17);
-    width: 100%;
+    width: 100%;  
     padding-top: 1.8rem;
     padding-bottom: 1.5rem;
     margin-top: 3rem;
     display: flex;
     justify-content: space-around;
+    /* position: relative; */
   }
   .column1-footer {
     width: 550px;
@@ -164,4 +166,93 @@
   .column2-footer .Binbak-footer {
     width: 110px;
     height: 110px;
+  }
+
+  .hero_aboutus {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .hero_aboutus img {
+    border-radius: 50%;
+    background-color: rgb(142, 17, 17);
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero_aboutus .vimi {
+    padding: 3.5rem;
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .hero_aboutus .vimi h1 {
+    color: rgb(142, 17, 17);
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 0.4rem;
+  }
+  
+  .hero_aboutus .vimi p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .hero_aboutus .vimi ul {
+    padding-left: 1.5rem;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero_aboutus .logo-aboutus {
+    padding: 8rem;
+    padding-top: 0px;
+  }
+  
+  .hero_aboutus .logo-aboutus p {
+    padding-left: 5rem;
+    padding-top: 4.5rem;
+  }
+
+  .hero_aboutus .logo-aboutus .per2223 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.7rem;
+    padding-bottom: 6rem;
+  }
+  .hero_aboutus .logo-aboutus .per2324 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 6rem;
+  }
+  .hero_aboutus .logo-aboutus .per2425 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-member img {
+    border-radius: 50%;
+    background-color: rgb(142, 17, 17);
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero-member .layout-ketua-wakil {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .hero-member .A-anggota-bidang-1 {
+    display: flex;
+    flex-direction: row;
   }
